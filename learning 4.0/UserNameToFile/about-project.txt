@@ -1,0 +1,13 @@
+1. this will ask for gmail and username. 
+gmail_CUNDITION{
+    must hv @gmail.com (make sure the user can't enter a gmail like : "@gmail.com", "123", "@gmail.comasdfasdf")
+    @gmail.com must be at the end.
+    (add more cundition for clearlyty)
+}
+username_CUNDITION{
+    must be <=2 or >= 25 this must have atlist one letter. can not have spases. make sure the user can't enter a username like : "123", "123123", "a".
+    and this will chck dose the username is unick. by looking in the folder' name. 
+    if the user name is unick then this will make a folder with the username in the given path.
+    
+    (add more cundition for clearlyty)
+}

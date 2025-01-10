@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "build SDL2 project",
+          "type": "shell",
+          "command": "g++",
+          "args": [
+              "-o",
+              "somthing_sdl",
+              "somthing_sdl.cpp",        // Source file first
+              "-I", "C:/msys64/mingw64/include",
+              "-L", "C:/msys64/mingw64/lib",
+              "-mconsole",               // Ensure it's here
+              "-lSDL2"                  // Library flag last
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "problemMatcher": ["$gcc"],
+          "detail": "Custom build task for SDL2 project"
+      }
+  ]
+}

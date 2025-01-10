@@ -1,0 +1,6 @@
+Application started.
+Loading configuration...
+ERROR: Failed to load configuration.
+Loading data...
+ERROR: Failed to load data.
+Application finished.

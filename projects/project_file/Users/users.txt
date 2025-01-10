@@ -1,0 +1,24 @@
+User Number: 1
+Username: rahib
+Password: 323232323
+Email: fj@gmail.com
+Timestamp: 2023-10-01 12:00:00
+------------------------
+User Number: 2
+Username: skjflaks
+Password: 2123423412
+Email: kjlk@gmail.com
+Timestamp: 2023-10-01 12:05:00
+------------------------
+User Number: 3
+Username: rahibsomthing
+Password: 234234120938j
+Email: kjf@gmail.com
+Timestamp: 2024-12-27 00:22:56
+------------------------
+User Number: 4
+Username: rhaib3i
+Password: 242434124
+Email: 212dsd@gamil.com
+Timestamp: 2024-12-27 00:30:09
+------------------------

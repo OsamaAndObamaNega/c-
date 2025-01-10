@@ -1,0 +1,68 @@
+BLACKBOXAI
+
+Sure! Here’s a C++ coding problem for you to solve:
+
+Problem: Inventory Management System
+You are tasked with creating a simple inventory management system for a store. The system should allow the user to
+add items to the inventory, remove items, and display the current inventory.
+
+Requirements:
+Item Class:
+
+Create a class named Item that has the following private member variables:
+string name: The name of the item.
+int quantity: The quantity of the item in stock.
+double price: The price of the item.
+The class should have a constructor to initialize these member variables.
+Implement a method display() that prints the item's details in a readable format.
+Inventory Class:
+
+Create a class named Inventory that manages a collection of Item objects.
+The class should have the following methods:
+void addItem(const Item& item): Adds an item to the inventory.
+void removeItem(const string& itemName): Removes an item from the inventory by name.
+void displayInventory() const: Displays all items in the inventory.
+Main Function:
+
+In the main() function, create an instance of the Inventory class.
+Provide a simple menu to the user to:
+Add an item
+Remove an item
+Display the inventory
+Exit the program
+Use a loop to allow the user to perform multiple operations until they choose to exit.
+Example Output:
+Insert Code
+Run
+Copy code
+Inventory Management System
+1. Add Item
+2. Remove Item
+3. Display Inventory
+4. Exit
+Choose an option: 1
+Enter item name: Apple
+Enter item quantity: 10
+Enter item price: 0.5
+
+1. Add Item
+2. Remove Item
+3. Display Inventory
+4. Exit
+Choose an option: 3
+Current Inventory:
+Name: Apple, Quantity: 10, Price: $0.50
+
+1. Add Item
+2. Remove Item
+3. Display Inventory
+4. Exit
+Choose an option: 4
+Exiting the program.
+Notes:
+You can use std::vector to store the items in the Inventory class.
+Make sure to handle cases where the user tries to remove an item that does not exist in the inventory.
+You can add additional features or validations as you see fit.
+Good Luck!
+Feel free to ask if you need any hints or guidance while working on this problem!
+
